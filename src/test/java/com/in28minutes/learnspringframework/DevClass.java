@@ -55,5 +55,27 @@ public class DevClass {
 
          l. @Inject: It is a Jakarta Contexts & Dependency Injection(CDI) Annotation similar to Autowired.
 
+      5. Important Spring Concept:
+
+         a. Dependency Injection: Identify bean, their dependencies and wire them together (provides IOC- Inversion of Control).
+            We have 3 types of dependency injections. 1) Constructor injection, 2) Setter Injection, 3) Field Injection
+
+         b. Constructor injection: Dependencies are set by creating the Bean using its Constructor.
+
+         c. Setter injection: Dependencies are set by calling setter methods on your beans.
+
+         d. Field Injection : No setter or constructor. Dependency is injected using reflection.
+
+         e. IOC Container: Spring IOC Context that manages Spring beans and their lifeCycle.
+
+         f. Bean Factory: Basic Spring Container.
+
+         g. Application Context: Advanced spring IOC Container with enterprise-specific features- Easy to use in web app. with
+            internationalization features and good integration with Spring AOP.
+
+         h. Spring Beans: Object managed by Spring.
+
+         i. Auto-Wiring: Process of wiring in dependencies for a Spring Bean.
+
      */
 }
